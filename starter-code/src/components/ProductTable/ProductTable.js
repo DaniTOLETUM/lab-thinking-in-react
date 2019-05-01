@@ -4,7 +4,7 @@ import "./ProductTable.css";
 //Components
 import ProductRow from "../ProductRow/ProductRow"
 
-export default function ProductTable() {
+function ProductTable() {
   return (
     <div className="product-table">
       <p>PRODUCT TABLE</p>
@@ -12,3 +12,5 @@ export default function ProductTable() {
     </div>
   );
 }
+
+export default ProductTable

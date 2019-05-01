@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import FilterableProductTable from './components/FilterableProductTable/FilterableProductTable';
 
 //Components
-import SearchBar from "./components/SearchBar/SearchBar";
-import ProductTable from "./components/ProductTable/ProductTable";
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1> IronSearch Engine</h1>
-        <SearchBar />
-        <ProductTable />
-
+        <FilterableProductTable />
       </div>
     );
   }
