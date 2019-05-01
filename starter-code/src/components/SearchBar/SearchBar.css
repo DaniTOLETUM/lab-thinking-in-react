@@ -1,6 +1,17 @@
 .search-bar {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin: auto;
   height: 200px;
   background-color: lightblue;
+}
+
+.input {
+  margin: 0 auto;
+  width: 450px;
+}
+
+.search-word {
+  margin: 50px auto 30px;
 }

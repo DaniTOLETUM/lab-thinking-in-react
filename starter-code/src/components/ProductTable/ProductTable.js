@@ -4,11 +4,12 @@ import "./ProductTable.css";
 //Components
 import ProductRow from "../ProductRow/ProductRow"
 
-function ProductTable() {
+function ProductTable({ products }) {
+  // console.log(products)
   return (
     <div className="product-table">
       <p>PRODUCT TABLE</p>
-      <ProductRow />
+      <ProductRow products={products} />
     </div>
   );
 }
